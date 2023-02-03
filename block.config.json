@@ -1,0 +1,13 @@
+{
+  "name": "product_list_api",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/product_list_api",
+    "ssh": "git@github.com:uttahb/product_list_api.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
